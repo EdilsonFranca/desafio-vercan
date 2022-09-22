@@ -1,0 +1,25 @@
+.app-container{
+    min-height: 100vh;
+}
+
+.section-conteudo {
+    width: calc(100% - 240px);
+}
+
+.section-conteudo-body {
+   min-height: calc(100vh - 150px);
+}
+
+.menu{
+    background: #222D32;
+    width: 240px!important;
+}
+
+.menu > .menu-box > ul > li > a{
+    border-left: 3px solid transparent;
+}
+
+.menu > .menu-box > ul > li > a.active,.menu > .menu-box > ul > li > a:hover {
+    border-left-color: white;
+    background: #1e282c;
+}

@@ -1,0 +1,53 @@
+.disabled{
+    background-color: #E9ECEF!important;
+    border-color: #ced4da!important;
+    pointer-events:none!important;
+}
+.cursor_pointer{
+    cursor: pointer !important;
+}
+
+.form-create label{
+    font-size: 15px;
+}
+
+#pessoa_fisica{
+    display: none;
+}
+
+#pessoa_juridica , #pessoa_fisica{
+    transition: .7s;
+}
+
+.uf_box,.cidade_box{
+    height: 200px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.label_uf, .label_cidade{
+    padding: 10px;
+}
+
+.label_uf:hover , .label_cidade:hover{
+    background: #3C8DBC;
+    color: #FFF;
+}
+
+.label_uf > input {
+    display: none;
+}
+
+contato_adicionais, .clone  , .box_condominio_endereco{
+    display: none;
+}
+
+.app-disabled{
+    pointer-events:none!important;
+}
+
+.obrigatorio::after {
+    content:"•";
+    color: red;
+}

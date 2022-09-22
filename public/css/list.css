@@ -1,0 +1,12 @@
+.odd{
+    background:#F9F9F9;
+}
+.even,
+.odd{
+    font-size: 15px;
+}
+
+.odd td:last-child > div,
+.even td:last-child > div{
+    text-align: center !important
+}
